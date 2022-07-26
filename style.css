@@ -1,0 +1,144 @@
+#welcome-section {
+    height: 100vh;
+    width: 100vw;
+    background-image:url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Binary-Code-Background-for-Desktop.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    background-position: center;
+    }
+
+#navbar {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(216, 68, 68);
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    z-index: 2;
+    }
+
+.nav-link {
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(24, 9, 119);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#welcome-section::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+#intro, #intro2 {
+    color: white;
+    z-index: 1;
+}
+
+#intro {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+#intro2 {
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.project-tile {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px;
+    gap: 70px;
+    transition: transform 1s ease;
+}
+
+#project-intro {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.project-tile p {
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+#contact {
+    background-color: rgba(165, 42, 42, 0.402);
+    text-align: center;
+    padding: 100px;
+}
+
+#contact p {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#social-intro {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#contact a {
+    font-size: 25px;
+    margin: 0 30px;
+}
+
+i {
+    font-size: 50px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgba(165, 42, 42, 0.402);
+    padding: 10px;
+    border-top: 5px solid rgb(182, 70, 70);
+}
+
+@media (max-width:760px) {
+    #intro {
+        text-align: center;
+    }
+    .contact-btn {
+        line-height: 90px;
+    }
+}
+
+@media (min-width:760px) {
+    .project-tile {
+        justify-content: center;
+    }
+    #navbar {
+        justify-content: space-around;
+    }
+}
