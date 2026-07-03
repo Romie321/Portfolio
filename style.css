@@ -32,7 +32,10 @@
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: rgb(240, 231, 111);
+  /* background-image: url(https://i.pinimg.com/736x/d4/5f/ad/d45fad754767f905cae95cc1d6d3a155.jpg);
+  background-size: cover;
+  index: 0;*/
 }
 
 #welcome-section::after {
