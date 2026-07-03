@@ -30,4 +30,4 @@ This portfolio is part of my ongoing effort to build a strong, public-facing dev
 This is an active, evolving project. I’ll continue updating the layout, adding new sections, and improving the design as I grow my skills.
 
 ## 📬 Contact
-Feel free to reach out or follow my work on GitHub as I continue building my portfolio
+Feel free to reach out or follow my work on GitHub as I continue building my portfolio.
