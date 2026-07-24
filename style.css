@@ -132,6 +132,7 @@ a:hover {
   background-color: rgba(165, 42, 42, 0.402);
   text-align: center;
   padding: 100px;
+  margin: 0;
 }
 
 #contact p {
