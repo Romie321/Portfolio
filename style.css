@@ -51,7 +51,8 @@ body {
 
 #intro,
 #intro2,
-#intro3 {
+#intro3,
+#tag-line {
   color: white;
   z-index: 1;
 }
