@@ -176,6 +176,9 @@ footer {
   #intro {
     text-align: center;
   }
+  #tag-line {
+    text-align: center;
+  }
   .contact-btn {
     line-height: 90px;
   }
@@ -187,5 +190,11 @@ footer {
   }
   #navbar {
     justify-content: space-around;
+  }
+}
+
+@media (max-width: 1000px) {
+  #intro2 {
+    text-align: center;
   }
 }
